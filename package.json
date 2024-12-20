@@ -1,6 +1,7 @@
 {
   "name": "test-spa",
   "version": "0.1.0",
+  "homepage": "https://levsmirnov1999.github.io/test-spa",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
@@ -20,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,6 +48,7 @@
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "gh-pages": "^6.2.0",
     "typescript": "^4.9.5"
   }
 }
