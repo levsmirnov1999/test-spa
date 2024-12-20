@@ -1,0 +1,19 @@
+@import url("../assets/fonts/Lack/style.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lack", Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+:root {
+  --bg-color: linear-gradient(135deg, #f9f9f9, #546bb8);
+  --black: #333;
+  --blue: #007bff;
+}

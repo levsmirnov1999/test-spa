@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Lack";
+  src: url("./lack_regular.eot") format("embedded-opentype"),
+    url("./lack_regular.woff2") format("woff2"),
+    url("./lack_regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
